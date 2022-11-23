@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+	function welcomeHard(){
+		var name=document.getElementById("name").value;
+		localStorage.setItem("name",name);
+	}
+</script>
+</head>
+<body>
+<form action="ind.html" method="post">
+<center>
+<table border="2px" rules="none">
+<tr>
+<th colspan="2">Login</th>
+</tr>
+<tr><td><input type="text" name="uname" placeholder="User
+name" id="name"></td></tr> 
+
+<tr><td><input type="text" name="password"
+placeholder="Password"></td></tr>
+<tr><th><input type="submit" value="Sign in" onclick="welcomeHard()"></th></tr>
+</table>
+</center>
+</form>
+</body>
+</html>

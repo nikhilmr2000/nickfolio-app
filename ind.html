@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+		function hello(){
+			document.getElementById("hello").innerHTML="Welcome "+localStorage.getItem("name");
+		}
+	</script>
+</head>
+<body onLoad="hello()">
+	<center><h1 id="hello"></h1></center>
+</body>
+</html>

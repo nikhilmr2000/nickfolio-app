@@ -1,0 +1,58 @@
+{
+    "name":"Nikhil",
+    "email":"nickrockz2000@gmail.com",
+    "tag":"Software Developer",
+    "description":"Hardworker,self motivated and adaptable with respect to conditions",
+    "contact":"9787677540",
+    "studies":[
+        {
+            "instituteName":"NVKS",
+            "branch":"XII Standard",
+            "grade":"1053/1200"
+        },
+        {
+            "instituteName":"Amrita College",
+            "branch":"Nagercoil",
+            "grade":"1053/1200"
+        }
+    ],
+    "projects":[{
+        "name":"Plan your trip",
+        "about":"Trip Package Booking System",
+        "stack":"JAVA"
+    },
+    {
+        "name":"Know your patient",
+        "about":"Vaccine Booking System",
+        "stack":"MERN"
+    }
+    ],
+    "achievements":[
+        {
+            "name":"Smart India Hackathon",
+            "performance":"Participated in the smart india hackathon"
+        },
+        {
+            "name":"Viswa Chathra Karma Awards Hackathon",
+            "performance":"Shortlisted in Viswa Chathra Karma Awards Hackathon"
+        }
+    ],
+    "skills":[
+        {
+            "name":"Hardworking"
+        },
+        {
+            "name":"team Working and Self learning"
+        }
+    ],
+    "profile":{
+        "name":"Nikhil",
+    "email":"nickrockz2000@gmail.com",
+    "phoneNumber":"9787677540",
+    "password":"Nikhilnikku@7",
+    "authority":{
+            "id":1,
+            "name":"USER"
+        }
+    }
+}

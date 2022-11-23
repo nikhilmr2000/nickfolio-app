@@ -1,0 +1,152 @@
+#container{
+	padding:10px 0px ;
+}
+#header{
+	height:50px;
+	border-radius:1px;
+}
+#headimg{
+	float:left;
+	padding:0px 10px;
+}
+
+#menu{
+	float:right;
+	padding:0px 50px;
+	width:750px;
+	height:50px; 
+	border-radius:10px;
+}
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:black;
+	font-size:17px;
+	font-weight:800;
+	padding:2px 0px;
+}
+
+#menu ul li a:hover,#menu ul li .active{
+	color:darkviolet;
+	font-weight:800;
+}
+
+#menu ul li{
+	float:left;
+	list-style: none;
+	padding:0px 50px;
+	border-right:1px solid;
+}
+
+#menu ul li:last-child{
+	border-right:none;
+}
+.clear{
+	clear:both;
+}
+
+#intro{
+	border-radius:2px;
+	height:200px;
+	padding:50px 50px; 
+	background:linear-gradient(#b2beb5,white);
+}
+#intro h1,h2{
+	text-align: center;
+}
+
+#slides{
+	padding:5px 50px;
+	height:600px;
+	border-radius:2px;
+	background:linear-gradient(#800080,white);
+}
+#slides #slide1 h3,#slides #slide2 h3,#slides #slide3 h3{
+	color:grey;
+	font-weight:500;
+}
+#slides #slide1{
+	float:left;
+	padding:50px 20px;
+	width:250px;
+	height:450px;
+	background:linear-gradient(pink,white);
+	border-radius:2px;
+}
+#slides #slide2{
+	float:left;
+	padding:50px 20px;
+	width:250px;
+	height:450px;
+	margin:0px 160px;
+	background:linear-gradient(pink,white);
+	border-radius:2px;
+}
+#slides #slide3{
+	float:left;
+	padding:50px 20px;
+	width:250px;
+	height:450px;
+	background:linear-gradient(pink,white);
+	border-radius:2px;
+}
+#slides #slide1:hover,#slides #slide2:hover,#slides #slide3:hover{
+	transform:scale(1.05,1.05);
+}
+body{
+	background:linear-gradient(white,#ffccfe);
+}
+#job{
+	border-radius:2px;
+	padding:2px 50px;
+	height:380px;
+	background:linear-gradient(#f472f1,white);
+}
+#job #fresh{
+	float:left;
+	padding:0px 100px;
+	height:370px;
+}
+#job #exp{
+	float:right;
+	padding:0px 100px;
+	height:370px;
+	border-left:1px solid;
+}
+
+#job #fresh #list1 li,#job #exp #list2 li{
+	list-style: none;
+	list-style-image: url(images/logo3.png);
+	transform:rotate(0deg);
+	translate:transform 1s;
+	font-weight:550;
+	font-size:18px;
+}
+
+#job #fresh #list1 li a{
+	text-decoration: none;
+}
+
+#job #exp #list2 li a{
+	text-decoration: none;
+}
+#job #fresh #list1 li a:hover{
+	-webkit-animation:animate 2s;
+}
+#job #exp #list2 li a:hover{
+	-webkit-animation:animate1 2s;
+}
+@-webkit-keyframes animate{
+	from{color:black;}
+	to{color:green;}
+}
+@-webkit-keyframes animate1{
+	from{color:black;}
+	to{color:green;}
+}
+#footer {
+	
+	border-radius:2px;
+	padding: 0px 50px;
+	height:150px;
+}
